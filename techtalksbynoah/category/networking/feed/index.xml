@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Networking - Tech Talks By Noah</title>
+	<atom:link href="/category/networking/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Sat, 05 Feb 2022 21:22:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9</generator>
+	<item>
+		<title>What Is a Computer Network?</title>
+		<link>/what-is-a-computer-network/</link>
+					<comments>/what-is-a-computer-network/#respond</comments>
+		
+		<dc:creator><![CDATA[Noah Caldwell]]></dc:creator>
+		<pubDate>Fri, 12 Nov 2021 11:36:02 +0000</pubDate>
+				<category><![CDATA[Networking]]></category>
+		<category><![CDATA[Posts]]></category>
+		<guid isPermaLink="false">http://sandbox.techtalksbynoah.local/?p=1535</guid>
+
+					<description><![CDATA[This is a high level over view of what a computer network is.]]></description>
+										<content:encoded><![CDATA[
+<h2 id="introduction">Introduction</h2>
+
+
+
+<p>A computer network is similar to the U.S. highway and interstate system. It is an interconnected set of information highways and superhighways that allows for the transport of parcels of information. These highways are the basis for the entire internet, they are the "backbone" of the internet.</p>
+
+
+
+<p>To best understand how a computer network works we will use an example.</p>
+
+
+
+<h2 id="how-do-computers-communicate">How Do Computers Communicate?</h2>
+
+
+
+<p>Imagine you live in Georgia, and you are sending a letter to your friend in California. That letter has to go through a series of steps to get from your house to your friend's house. A brief example would be go like this:</p>
+
+
+
+<ul><li>You write the letter</li><li>You put the letter in your mailbox</li><li>The mail person pick up your letter</li><li>The letter is transferred to your local post office</li><li>The letter is forwarded to a regional distribution hub in Georgia</li><li>The letter is transported to a regional distribution hub in California</li><li>The letter is transported to your friend's local post office</li><li>The mail person runs and puts the letter in your friend's mailbox</li><li>Your friend receives and reads the letter</li></ul>
+
+
+
+<p>This is exactly how a computer network works, and leads me to my next point. All computers have an address. An <a href="https://techtalksbynoah.com/glossary/"><strong><span style="color:#03c4eb" class="has-inline-color">IP</span> <span style="color:#03c4eb" class="has-inline-color">Address</span></strong></a>.</p>
+
+
+
+<p>An Internet Protocol (IP) address is like your mailing address. It is how the mail person tells your house from your neighbor's to deliver your mail accurately and reliably.</p>
+
+
+
+<p>There are two types of IP addresses (most of the details of which are beyond the scope of this article) IP Version 4 (IPv4) and IP Version 6 (IPv6). I will give a brief overview of IPv4 and save IPv6 for a later article.</p>
+
+
+
+<h2 id="okay-i-kinda-get-it">Okay, I kinda get it..</h2>
+
+
+
+<p>An IPv4 address has 4 parts separated by periods. An example would be '192.168.0.1' (without the quotes). Now, this address tells computers where to send information. Every computer has one. Following our mail example, say you are sending and <a href="https://techtalksbynoah.com/glossary/"><strong><span style="color:#03c4eb" class="has-inline-color">email</span></strong></a> to your friend in California. Your email will be forwarded to a <a href="https://techtalksbynoah.com/glossary/"><span style="color:#03c4eb" class="has-inline-color"><strong>router</strong></span></a>, which acts as your local post office. The router is typically a book sized box (Usually labeled 'Comcast', 'Xfinity', 'AT&amp;T', 'Netgear' or something similar) connected to the wall by a cable. The router then forwards your email to a datacenter (which acts as the regional distribution center from the example above). The routers in the datacenter forward the email to other datacenters until the email arrived at your friend's IP address.</p>
+
+
+
+<p>Now you know how a network works, you need to learn the basic types of networks. There are two very basic network types:</p>
+
+
+
+<ul><li>Local Area Network (LAN)</li><li>Wide Area Network (WAN)</li></ul>
+
+
+
+<p>A LAN is a small internal network similar to a city block. A WAN is a large broad network composed of many LANs akin to city blocks in a state (e.g. California). The internet is considered a WAN.</p>
+
+
+
+<p>So far we have covered what a network is, how computers communicate, and the types of networks. Now I am going to wrap up this post by typing it all together with one last example.</p>
+
+
+
+<p>Walking through step-by-step, we will use the example of accessing this blog from you computer browser.</p>
+
+
+
+<ol><li>You open your preferred web browser</li><li>You type in <a href="https://techtalksbynoah.com/">techtalksbynoah.com</a></li><li>Your computer sends a request to your router on your Local Area Network</li><li>Your router looks at the request and notes that you want to go to techtalksbynoah.com</li><li>Your router forwards the request to a datacenter</li><li>The data center router looks at the request and says techtalksbynoah.com has a server address of 192.168.x.x (this is not my real server IP just a made up number for example's sake)</li><li>The datacenter router then figures out the most efficient path through the internet (a WAN) to get to 192.168.x.x (a.k.a. techtalksbynoah.com)</li><li>The datacenter router then sends your computer's request along the path it just determined</li><li>Your computer's request arrives at my servers IP address (my server's 'home address')</li><li>My server replies to your computers request for my website's homepage</li><li>My server sends it's reply the same way that your computer sent it's request (through the datacenter router) in reverse</li><li>My website appears in your browser for you to learn wonderful things about tech 🙂</li></ol>
+
+
+
+<p>The amazing thing is that all of these steps happen in just a matter of seconds. Technology is a marvelous thing isn't it?</p>
+
+
+
+<p>Stay tuned for more great content!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/what-is-a-computer-network/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

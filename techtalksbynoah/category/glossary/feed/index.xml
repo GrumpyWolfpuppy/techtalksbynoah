@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Glossary - Tech Talks By Noah</title>
+	<atom:link href="/category/glossary/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Just another WordPress site</description>
+	<lastBuildDate>Sat, 05 Feb 2022 21:22:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.9</generator>
+	<item>
+		<title>Glossary</title>
+		<link>/glossary/</link>
+					<comments>/glossary/#respond</comments>
+		
+		<dc:creator><![CDATA[Noah Caldwell]]></dc:creator>
+		<pubDate>Sat, 13 Nov 2021 15:14:46 +0000</pubDate>
+				<category><![CDATA[Glossary]]></category>
+		<category><![CDATA[Posts]]></category>
+		<guid isPermaLink="false">http://sandbox.techtalksbynoah.local/?p=1551</guid>
+
+					<description><![CDATA[This is a glossary of terms used in this site's posts.]]></description>
+										<content:encoded><![CDATA[
+<p><mark style="background-color:rgba(0, 0, 0, 0);color:#03c4eb" class="has-inline-color">E-mail</mark>: Digital messages distributed from one computer user to one or more recipients via a network.</p>
+
+
+
+<p><mark style="background-color:rgba(0, 0, 0, 0);color:#03c4eb" class="has-inline-color">IP Address</mark>: An IP address is a unique address that identifies a device on the internet or a local network</p>
+
+
+
+<p><mark style="background-color:rgba(0, 0, 0, 0);color:#03c4eb" class="has-inline-color">Router</mark>: A router is a device that communicates between the internet and the devices in your home that connect to the internet. As its name implies, it “routes” traffic between the devices and the internet</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/glossary/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
