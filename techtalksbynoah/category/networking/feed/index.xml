@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Networking - Tech Talks By Noah</title>
-	<atom:link href="/category/networking/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="//techtalksbynoah.pages.dev/category/networking/feed/" rel="self" type="application/rss+xml" />
+	<link>//techtalksbynoah.pages.dev/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 05 Feb 2022 21:22:57 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.9</generator>
 	<item>
 		<title>What Is a Computer Network?</title>
-		<link>/what-is-a-computer-network/</link>
-					<comments>/what-is-a-computer-network/#respond</comments>
+		<link>//techtalksbynoah.pages.dev/what-is-a-computer-network/</link>
+					<comments>//techtalksbynoah.pages.dev/what-is-a-computer-network/#respond</comments>
 		
 		<dc:creator><![CDATA[Noah Caldwell]]></dc:creator>
 		<pubDate>Fri, 12 Nov 2021 11:36:02 +0000</pubDate>
@@ -107,7 +107,7 @@
 <p>Stay tuned for more great content!</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/what-is-a-computer-network/feed/</wfw:commentRss>
+					<wfw:commentRss>//techtalksbynoah.pages.dev/what-is-a-computer-network/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		

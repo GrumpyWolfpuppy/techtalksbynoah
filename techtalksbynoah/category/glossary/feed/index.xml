@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Glossary - Tech Talks By Noah</title>
-	<atom:link href="/category/glossary/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="//techtalksbynoah.pages.dev/category/glossary/feed/" rel="self" type="application/rss+xml" />
+	<link>//techtalksbynoah.pages.dev/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 05 Feb 2022 21:22:57 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,8 +21,8 @@
 	<generator>https://wordpress.org/?v=5.9</generator>
 	<item>
 		<title>Glossary</title>
-		<link>/glossary/</link>
-					<comments>/glossary/#respond</comments>
+		<link>//techtalksbynoah.pages.dev/glossary/</link>
+					<comments>//techtalksbynoah.pages.dev/glossary/#respond</comments>
 		
 		<dc:creator><![CDATA[Noah Caldwell]]></dc:creator>
 		<pubDate>Sat, 13 Nov 2021 15:14:46 +0000</pubDate>
@@ -43,7 +43,7 @@
 <p><mark style="background-color:rgba(0, 0, 0, 0);color:#03c4eb" class="has-inline-color">Router</mark>: A router is a device that communicates between the internet and the devices in your home that connect to the internet. As its name implies, it “routes” traffic between the devices and the internet</p>
 ]]></content:encoded>
 					
-					<wfw:commentRss>/glossary/feed/</wfw:commentRss>
+					<wfw:commentRss>//techtalksbynoah.pages.dev/glossary/feed/</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
