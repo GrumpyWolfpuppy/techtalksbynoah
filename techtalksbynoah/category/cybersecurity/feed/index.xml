@@ -9,8 +9,8 @@
 
 <channel>
 	<title>Cybersecurity - Tech Talks By Noah</title>
-	<atom:link href="//techtalksbynoah.pages.dev/category/cybersecurity/feed/" rel="self" type="application/rss+xml" />
-	<link>//techtalksbynoah.pages.dev/</link>
+	<atom:link href="/category/cybersecurity/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 05 Feb 2022 21:46:22 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -21,7 +21,7 @@
 	<generator>https://wordpress.org/?v=5.9</generator>
 	<item>
 		<title>How to install Kali Linux</title>
-		<link>//techtalksbynoah.pages.dev/how-to-install-kali-linux/</link>
+		<link>/how-to-install-kali-linux/</link>
 		
 		<dc:creator><![CDATA[Noah Caldwell]]></dc:creator>
 		<pubDate>Sun, 26 Sep 2021 08:17:13 +0000</pubDate>

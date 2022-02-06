@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Comments on: Glossary	</title>
-	<atom:link href="//techtalksbynoah.pages.dev/glossary/feed/" rel="self" type="application/rss+xml" />
-	<link>//techtalksbynoah.pages.dev/glossary/</link>
+	<atom:link href="/glossary/feed/" rel="self" type="application/rss+xml" />
+	<link>/glossary/</link>
 	<description>Just another WordPress site</description>
 	<lastBuildDate>Sat, 05 Feb 2022 21:22:57 +0000</lastBuildDate>
 	<sy:updatePeriod>
